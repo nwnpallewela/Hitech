@@ -10,8 +10,8 @@
             <li class="treeview">
                 <a href="#"><i class='fa fa-database'></i> <span>Inventory</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> Insert Inventory</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> View Inventory</a></li>
+                    <li><a href="InsertInventory.php"><i class="fa fa-circle-o text-aqua"></i> Insert Inventory</a></li>
+                    <li><a href="ViewInventory.php"><i class="fa fa-circle-o text-aqua"></i> View Inventory</a></li>
                 </ul>
             </li>
             <li class="treeview">

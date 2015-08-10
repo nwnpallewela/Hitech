@@ -1,10 +1,8 @@
 <?php
-
-include '../DBCon.php';
-
+include './DBCon.php';
 $table = $_SESSION['table'];
 
-$query = "SELECT * FROM $table order by id desc limit 1;";
+$query = "SELECT * FROM $table ORDER BY id DESC LIMIT 1;";
 
 if ($query_run = mysql_query($query)) {
     if (mysql_num_rows($query_run) != NULL) {
@@ -13,10 +11,10 @@ if ($query_run = mysql_query($query)) {
         }
     }
 }
+
 if (isset($id)) {
     $_SESSION['id'] = $id;
 }else{
     $_SESSION['id'] = 1;
 }
 ?>
-
